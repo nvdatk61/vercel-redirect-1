@@ -19,13 +19,13 @@ const Home: NextPage = () => {
 
         <div className={styles.grid}>
           <a className={styles.card}>
-            <Image src="/1.png" height={150} width={250}/>
+            <img src="/anh-mot.png" height={150} width={250}/>
             <h2>Fleetwood Mac – Go Your Own Way</h2>
             <p>About the Song A Song for the Ages: Unveiling the Timeless Appeal of Fleetwood Mac’s...</p>
           </a>
 
           <a className={styles.card}>
-            <Image src="/2.png" height={150} width={250}/>
+            <Image src="/anh-hai.png" height={150} width={250}/>
             <h2>Boston – “More Than a Feeling</h2>
             <p>About the Song More Than a Feeling: A Journey Through Time With Boston Close your...</p>
           </a>
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
           <a
             className={styles.card}
           >
-            <Image src="/3.png" height={150} width={250}/>
+            <Image src="/anh-ba.png" height={150} width={250}/>
             <h2>John Denver – Leaving On A Jet Plane</h2>
             <p>About The Song Did you know that John Denver’s “Leaving On A Jet Plane” was...</p>
           </a>
@@ -41,7 +41,7 @@ const Home: NextPage = () => {
           <a
             className={styles.card}
           >
-            <Image src="/4.png" height={150} width={250}/>
+            <Image src="/anh-bon.png" height={150} width={250}/>
             <h2>Frankie Valli & The Four Seasons – Sherry</h2>
             <p>
               About The Song Frankie Valli (born Francis Casteluccio) had been hard at work trying to ...
@@ -51,7 +51,6 @@ const Home: NextPage = () => {
       </main>
 
       <footer className={styles.footer}>
-          By Datnguyenvu
       </footer>
     </div>
   )
